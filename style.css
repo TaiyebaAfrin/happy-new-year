@@ -1,0 +1,239 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+
+/* body{
+     font-family: 'Merriweather', serif;
+} */
+
+
+/* banner */
+
+.banner{
+     background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/bannerImage.png);
+     margin: 50px 180px 0px 80px;
+     text-align: center;
+     border-radius: 16px;
+     height: 600px;
+     background-repeat: no-repeat;
+
+}
+
+.banner-content{
+     text-align: center;
+     padding: 150px 0;
+}
+
+.banner-greeting{
+     color: #FFF;
+     text-align: center;
+     font-family: Merriweather;
+     font-size: 32px;
+     font-weight: 400;
+}
+
+.banner-title{
+     color: #FFF;
+     text-align: center;
+     font-family: Merriweather;
+     font-size: 72px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 95px; /* 131.944% */
+     padding-top: 30px;
+}
+
+
+/* one section */
+
+.section-one{
+     text-align: center;
+     padding: 100px 80px;
+}
+
+.newyear-greeting{
+     color: #F00;
+     text-align: center;
+     font-family: 'Inter', sans-serif;
+     font-size: 88px;
+     font-weight: 700;
+
+}
+
+.newyear-title{
+     color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     padding-top: 50px;
+}
+
+.newyear-description{
+     color: #070211;
+     text-align: center;
+     font-family: Inter;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     padding-top: 20px;
+}
+
+.profile-picture{
+     padding-top: 40px;
+}
+
+
+
+/* two section */
+.section-two{
+     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/vctorrr.png);
+     margin: 50px 100px;
+     border-radius: 16px;
+     height: 600px;
+     background-repeat: no-repeat;
+
+}
+.section-two-banner{
+     padding: 100px 100px;
+}
+.section-two-greeting{
+     color: #FFF;
+     font-family: Merriweather;
+     font-size: 64px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 88px; /* 137.5% */
+     letter-spacing: 7.04px;
+}
+.section-two-title{
+     color: rgba(255, 255, 255, 0.80);
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px; /* 166.667% */
+}
+
+.btn-section-two{
+     color: #FFF;
+     text-align: center;
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: uppercase;
+     background-color: rgba(0, 0, 0, 0);
+     border: 0px;
+     padding-top: 20px;
+     padding-left: 30px;
+}
+
+
+/* 3rd section */
+.section-three{
+     margin: 50px 120px 0px 100px;
+}
+.three-container{
+     display: flex;
+}
+
+/* .three-container{
+     padding: 20px;
+} */
+/* <!-- column-one --> */
+.section-three{
+     margin-top: 100px;
+}
+.column-one{
+     justify-content: space-around;
+     padding: 20px;
+}
+
+.column-one-greeting{
+     color: #F00;
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     padding-top: 60px;
+
+}
+
+.column-one-title{
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     text-transform: capitalize;
+     padding-top: 17px;
+}
+
+.column-one-description{
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px; /* 160% */
+     padding-top: 17px;
+}
+
+
+/* <!-- column-three --> */
+.column-three-greeting{
+     color: #F00;
+     font-family: Inter;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     padding-top: 60px;
+}
+
+.column-three-title{
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px; /* 160% */
+     padding-top: 17px;
+
+}
+
+.image-three{
+     padding-top: 22px;
+}
+
+
+/* <!-- section-four --> */
+.image-container-box{
+     margin-top: 100px;
+     margin: 50px 120px 0px 100px;
+}
+
+image{
+     position: relative;
+
+}
+.overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: #03242f;
+   }
