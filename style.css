@@ -101,6 +101,7 @@
 }
 .section-two-banner{
      padding: 100px 100px;
+     display: flex;
 }
 .section-two-greeting{
      color: #FFF;
